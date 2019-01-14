@@ -11,26 +11,36 @@
 </head>
 
 <body>
-	<div>
-		<h1>Prijs drinken:</h1>
-		<p>fris: &euro;2.50.</p>
-		<p>wijn: &euro;5.50.</p>
-		<p>bier: &euro;3.50.</p>
+	<div id="maindiv">
+		<div id="drinkprijs">
+			<h1>Prijs drinken:</h1>
+			<p>fris: &euro;2.50.</p>
+			<p>wijn: &euro;5.50.</p>
+			<p>bier: &euro;3.50.</p>
+		</div>
 
-		<h1><br>Prijs snacks:</h1>
-		<p>Kleine schaal bitterballen (8): &euro;2.50.</p>
-		<p>Grote schaal bitterballen (16): &euro;4.50.</p>
+		<div id="snackprijs">
+			<h1><br>Prijs snacks:</h1>
+			<p>Kleine schaal bitterballen (8): &euro;2.50.</p>
+			<p>Grote schaal bitterballen (16): &euro;4.50.</p>
+		</div>
 
-		<h1><br>Besteld drinken:</h1>
-		<p id="fris">fris: 0x, &euro;0.</p>
-		<p id="wijn">wijn: 0x, &euro;0.</p>
-		<p id="bier">bier: 0x, &euro;0.</p>
+		<div id="bdrink">
+			<h1><br>Besteld drinken:</h1>
+			<p id="fris">fris: 0x, &euro;0.</p>
+			<p id="wijn">wijn: 0x, &euro;0.</p>
+			<p id="bier">bier: 0x, &euro;0.</p>
+		</div>
 
-		<h1><br>Bestelde snacks:</h1>
-		<p id="kleineschaal">kleine schalen: 0x, &euro;0.</p>
-		<p id="groteschaal">grote schalen: 0x, &euro;0.</p>
+		<div id="bsnacks">
+			<h1><br>Bestelde snacks:</h1>
+			<p id="kleineschaal">kleine schalen: 0x, &euro;0.</p>
+			<p id="groteschaal">grote schalen: 0x, &euro;0.</p>
+		</div>
 
-		<p id="totaalprijs"><br><br><br>totaalprijs: &euro;0.</p>
+		<div id="totaalprijs">
+			<h1 id="totaalprijs"><br><br><br>totaalprijs: &euro;0.</h1>
+		</div>
 	</div>
  
 	<script src="horeca.js"></script>

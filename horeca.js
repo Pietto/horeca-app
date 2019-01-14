@@ -112,10 +112,10 @@ if(groteschalen == 0){
 
 
 if(aantalfris == 0,aantalbier == 0, aantalwijn == 0){
-    document.getElementById('fris').innerHTML='U heeft geen drinken besteld<br>';
+    document.getElementById('fris').innerHTML='U heeft geen drinken besteld...<br>';
 }
 if(kleineschalen == 0,groteschalen == 0){
-    document.getElementById('kleineschaal').innerHTML='U heeft geen snacks besteld<br>';
+    document.getElementById('kleineschaal').innerHTML='U heeft geen snacks besteld...<br>';
 }
 
 
