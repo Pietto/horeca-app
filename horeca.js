@@ -46,13 +46,11 @@ while(keuze != 'stop'){
         var snacks = prompt("Hoeveel snacks wilt u?","kies uit een schaal van '8' of '16'")
 
         if(snacks == "8"){
-            alert("successs");
             var kleineschalen = kleineschalen+1;
             var keuze = prompt("Wilt u nog wat bestellen?");
             console.log('kleineschalen:'+ kleineschalen);
         }
         else if(snacks == "16"){
-            alert("successs");
             var groteschalen = groteschalen+1;
             var keuze = prompt("Wilt u nog wat bestellen?");
             console.log('groteschalen:'+ groteschalen);
@@ -111,12 +109,6 @@ if(groteschalen == 0){
 }
 
 
-if(aantalfris == 0,aantalbier == 0, aantalwijn == 0){
-    document.getElementById('fris').innerHTML='U heeft geen drinken besteld...<br>';
-}
-if(kleineschalen == 0,groteschalen == 0){
-    document.getElementById('kleineschaal').innerHTML='U heeft geen snacks besteld...<br>';
-}
 
 
 document.getElementById('totaalprijs').innerHTML='totaalprijs: &euro;'+totaalprijs+'.';
